@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-wrapper {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.chat-container {
+    background: #1a1a1a;
+    border: 1px solid #ff6a00;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(255, 106, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ff6a00;
+    font-size: 28px;
+}
+
+label {
+    font-size: 16px;
+    color: #ccc;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 16px;
+    margin: 16px 0;
+    border: 1px solid #ff6a00;
+    border-radius: 8px;
+    background: #2a2a2a;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #888;
+}
+
+button {
+    background-color: #ff6a00;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
+.output-box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-left: 4px solid #ff6a00;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.output-box h2 {
+    color: #ff6a00;
+    margin-bottom: 10px;
+}
